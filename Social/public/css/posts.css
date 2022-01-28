@@ -1,0 +1,24 @@
+.myInputsDiv{
+    margin: 0 15%;
+    min-height: calc(100vh - 80px);
+    padding: 25px 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+body{
+    background-color: #ededed;
+}
+.textarea1{
+    height: 200px;
+}
+h3{
+    font-size: 30px;
+    color: rgb(0, 90, 12);
+    letter-spacing: 1.3px;
+    word-spacing: 2.6px;
+}
+.success{
+    box-shadow: rgb(12, 131, 28) 0px 7px 29px 0px;
+    border-radius: 9px;
+    font-size: 18px;
+}

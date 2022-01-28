@@ -1,0 +1,52 @@
+body{
+    background-color: #ededed;
+}
+.main{
+    background-color: white !important;
+    min-height: calc(100vh - 80px);
+    box-shadow: rgb(175, 175, 175) 0px 7px 29px 0px;
+}
+.img{
+    font-size: 150px;
+    color: rgb(0, 0, 156);
+    outline: 3px solid rgb(0, 0, 0);
+    outline-offset: 25px;
+    border-radius: 50%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.d-flex{
+    flex-wrap: wrap !important;
+}
+.input-group{
+    max-width: 500px !important;
+}
+.myDiv{
+    width: 100%;
+}
+.profileImg{
+    border-radius: 50%;
+    outline: 3px solid black;
+    outline-offset: 5px;
+}
+@media screen and (min-width: 1000px){
+    .main{
+        width: 55%;
+    }
+    .profileImg{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .main{
+        width: 90%;
+    }
+    .profileImg{
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,58 @@
+.text{
+    padding: 30px 20%;
+    font-size: 18px;
+    color: rgb(0, 17, 68);
+}
+.text p{
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 21, 138);
+}
+.text span{
+    font-size: 17px;
+    color: rgb(0, 21, 138);
+    font-weight: bold;
+}
+.mainText{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.35px;
+    word-spacing: 2.6px;
+    right: calc(50% - 85px);
+    top: calc(50% - 25px);
+    color: #b2bec3;
+    animation-name: text;
+    animation-duration: 2.6s;
+    animation-iteration-count: 5;
+    padding: 0 25px;
+    border-radius: 12px;
+}
+@keyframes text{
+    0%{ right: calc(50% - 85px); }
+    50%{right: calc(50% - 85px);}
+    67.5%{right: calc(50% + 15px);}
+    85%{right: calc(50% - 85px);}
+    92.5%{right: calc(50% + 15px);}
+    100%{ right: calc(50% - 85px); }
+}
+.service .text-primary{
+    text-transform: capitalize;
+}
+.main{
+    position: relative;
+    height: 350px;
+    border-radius: 0 0  15px 15px;
+    box-shadow: #555 5px 5px 22px 0px;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0  15px 15px;
+}
+.larg{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 21, 138) !important;
+}

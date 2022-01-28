@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.btn-log{
+    background-color: #ffeaa7 ;
+}
+.btn-logout{
+    background-color: #fcc2b5 ;
+}
+.btn-reg{
+    background-color: #ffeaa7;
+}
+.fa-forumbee{
+    font-size: 26px;
+    color: #d35400 !important;
+}
+.nav-link{
+    color: #ecf0f1 !important;
+    font-size: 17px !important;
+}
+.logout{
+    font-size: 20px;
+}

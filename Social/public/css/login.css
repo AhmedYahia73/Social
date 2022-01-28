@@ -1,0 +1,41 @@
+
+@media screen and (min-width: 1000px){
+    body{
+    background-color: #dedede;
+}
+    .log{
+        background-color: white ;
+        width: 700px;
+        height: calc(100vh - 100px);
+        border-right: 1px solid #aaa;
+        border-left: 1px solid #aaa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+     }
+}
+@media screen and (max-width: 1000px){
+    .log{
+        padding-top: 50px;
+        width: 90%;
+        position: relative;
+     }
+     .formbtn{
+         height: 70px;
+     }
+}
+.formbtn{
+    width: 300px;
+    font-size: 20px;
+}
+.logData{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.logData2{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}

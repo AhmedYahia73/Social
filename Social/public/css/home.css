@@ -1,0 +1,169 @@
+body{
+    background-color: #ccc;
+}
+.post{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.Name{
+    font-size: 19px;
+    letter-spacing: 1.3px;
+    word-spacing: 2px;
+}
+.title img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.title .img{
+    padding: 3px;
+    font-size: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 17, 116);
+    color: rgb(0, 31, 204);
+}
+.title, .body{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.body{
+    padding-left: 62px;
+    color: rgb(0, 56, 39);
+}
+.comm{
+    padding-bottom: 75px;
+}
+.hide{
+    display: none !important;
+}
+.icon{
+    border: none;
+    background-color: transparent;
+}
+.publicBody{
+    padding-left: 62px;
+    color: rgb(0, 56, 39);
+}
+.bodycomment{
+    padding-left: 62px;
+    color: rgb(0, 56, 39);
+}
+.fill{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.fill .comment .textPublished{
+    border: 1.5px solid rgb(161, 161, 252);
+    height: 50px;
+    }
+    .fill .comment form{
+    width: calc(100% - 60px);
+    }
+.fill .comment{
+    border-radius: 10px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.fill .comment .publishComment{
+    position: fixed;
+    background-color: white;
+    border-top: 1.5px solid #aaa;
+    padding-top: 15px;
+    height: 80px;
+}
+.close{
+    position: fixed;
+    font-size: 50px;
+}
+@media screen and (max-width:1000px) {
+.fill .comment{
+    width: 90% ;
+    height: 90%;
+}
+.fill .comment .publishComment{
+    border-radius: 0 0 10px 10px;
+    width: 90vw;
+    bottom: 5%;
+}
+.close{
+    top: 5%;
+    color: rgb(0, 0, 0);
+    right: 5%;
+}
+}
+@media screen and (min-width:1000px) {
+    
+.fill .comment{
+    width: 53% ;
+    height: 95% ;
+}
+.fill .comment .publishComment{
+    bottom: 2.5%;
+    border-radius: 0 0 10px 10px;
+    width: 53vw;
+}
+.close{
+    top: 2.5%;
+    color: rgb(255, 255, 255);
+    right: 20px;
+}
+}
+
+
+.type{
+    width: 250px !important;
+}
+.save{
+    position: fixed;
+    top: 100px;
+    left: 20px;
+}
+.rate{
+    font-size: 22px;
+    color: rgb(0, 21, 138);
+    padding: 2px 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
+h5.title1{
+    color: rgb(0, 82, 4);
+}
+.title{
+    position: relative;
+}
+.show{
+    box-shadow: #aaa 0px 5px 20px 0px;
+    position: absolute;
+    right: 20px;
+    padding-top: 45px;
+    background-color: white;
+    top: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.show a, .show button{
+    display: block;
+    padding: 8px 0;
+    margin: 3px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+.show a:hover{
+    background-color: #ccc;
+    color: rgb(44, 44, 255);
+}
+.show button:hover{
+    background-color: #ccc;
+    color: rgb(44, 44, 255);
+}
